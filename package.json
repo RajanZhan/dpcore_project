@@ -1,0 +1,22 @@
+{
+  "name": "dpservice",
+  "version": "1.0.0",
+  "description": "一个超轻量级的企业级web框架，完全基于typescript开发，急速开发必备工具",
+  "main": "index.js",
+  "bin": {
+    "dpservice": "main.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.6.8"
+  },
+  "scripts": {
+    "start": "node ./bin/main.js",
+    "dev": "node ./bin/dpcore-core/debug.js",
+    "install": "npm config set registry https://registry.npm.taobao.org  && npm i yarn -g && npm i @types/node  && tsc && node ./bin/dpcore-core/devTool/cppackage.js",
+    "build": "node ./bin/core/debug.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

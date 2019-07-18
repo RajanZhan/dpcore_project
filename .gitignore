@@ -1,0 +1,9 @@
+/*
+!.gitignore
+!install.bat
+!update.bat
+!.vscode
+!package.json
+!main.ts
+!tsconfig.json
+
