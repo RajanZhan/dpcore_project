@@ -12,3 +12,4 @@ install.bat
 
 使用vscode打开工程，启动调试，即可进入开发
 
+启动成功，访问 http://localhost:8081 即可看到欢迎信息： Hello world from dpCore
